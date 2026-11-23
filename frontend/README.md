@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-The frontend uses `https://compusconnect-w5cr.onrender.com` by default. To use a
+The frontend uses `https://compusconnect-adpc.onrender.com` by default. To use a
 different API, copy `.env.example` to `.env.local` and set
 `VITE_API_BASE_URL` to the API origin (without a trailing slash).
 

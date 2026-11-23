@@ -1,4 +1,4 @@
-const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'https://compusconnect-w5cr.onrender.com').replace(/\/+$/, '')
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'https://compusconnect-adpc.onrender.com').replace(/\/+$/, '')
 
 export async function api(path, options = {}) {
   const response = await fetch(`${API_BASE_URL}${path}`, {
